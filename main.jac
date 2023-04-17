@@ -74,5 +74,5 @@ walker find_coming_birthday {
         birthday_order = birthday_order[0:max_return];
         std.out(birthday_order);
         report birthday_order;
-    }
+        }
 }

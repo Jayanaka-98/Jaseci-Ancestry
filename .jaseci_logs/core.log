@@ -1,0 +1,5 @@
+2023-04-17 17:47:41,835 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x7fb5e57ab8b0>
+2023-04-17 17:47:41,835 - ERROR - compile_jac: main.jac: Invalid syntax in Jac code!
+2023-04-17 17:47:41,836 - ERROR - compile_jac: main.jac: line 77:0 - unparsed:main.jac:0:0: - extraneous input ' ' expecting {'-->', '<--', '<-', '<-->', 'str', 'int', 'float', 'list', 'dict', 'bool', 'type', 'node', 'ignore', 'take', 'spawn', ':', '::', NODE_DBL_COLON, '{', '}', 'edge', 'sync', 'assert', 'if', 'for', 'while', 'continue', 'break', 'disengage', 'yield', 'skip', 'report', 'destroy', 'try', '&', NOT, 'global', '+', '-', '*', '(', '[', FLOAT, STRING, BOOL, INT, 'null', NAME}
+2023-04-17 17:47:41,837 - ERROR - register: main.jac: Code not registered
+2023-04-17 17:58:27,579 - ERROR - interface_error: Internal Exception: [Errno 2] No such file or directory: 'main.jr'
