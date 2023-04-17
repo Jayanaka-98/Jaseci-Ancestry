@@ -3,3 +3,320 @@
 2023-04-17 17:47:41,836 - ERROR - compile_jac: main.jac: line 77:0 - unparsed:main.jac:0:0: - extraneous input ' ' expecting {'-->', '<--', '<-', '<-->', 'str', 'int', 'float', 'list', 'dict', 'bool', 'type', 'node', 'ignore', 'take', 'spawn', ':', '::', NODE_DBL_COLON, '{', '}', 'edge', 'sync', 'assert', 'if', 'for', 'while', 'continue', 'break', 'disengage', 'yield', 'skip', 'report', 'destroy', 'try', '&', NOT, 'global', '+', '-', '*', '(', '[', FLOAT, STRING, BOOL, INT, 'null', NAME}
 2023-04-17 17:47:41,837 - ERROR - register: main.jac: Code not registered
 2023-04-17 17:58:27,579 - ERROR - interface_error: Internal Exception: [Errno 2] No such file or directory: 'main.jr'
+2023-04-17 18:26:24,913 - INFO - proc_request: Incoming call to info with {}
+2023-04-17 18:26:24,919 - INFO - proc_request: Incoming call to architype_count with {'kind': 'node'}
+2023-04-17 18:26:24,922 - INFO - log_request_stats: API call to [32minfo[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m0[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:26:24,923 - INFO - proc_request: Incoming call to architype_count with {'kind': 'walker'}
+2023-04-17 18:26:24,933 - INFO - proc_request: Incoming call to architype_count with {'kind': 'graph'}
+2023-04-17 18:26:24,935 - INFO - proc_request: Incoming call to architype_count with {'kind': 'edge'}
+2023-04-17 18:26:24,948 - ERROR - interface_error: Internal Exception: 'NoneType' object has no attribute 'arch_ids'
+2023-04-17 18:26:24,948 - ERROR - interface_error: Internal Exception: 'NoneType' object has no attribute 'arch_ids'
+2023-04-17 18:26:24,948 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.029 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:26:24,954 - ERROR - interface_error: Internal Exception: 'NoneType' object has no attribute 'arch_ids'
+2023-04-17 18:26:24,954 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.022 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:26:24,955 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.014 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:26:24,956 - ERROR - interface_error: Internal Exception: 'NoneType' object has no attribute 'arch_ids'
+2023-04-17 18:26:24,961 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.021 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:34,348 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:27:34,376 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.027 seconds[m touched [33m17[m mem / [33m0[m redis / [33m1[m db  ([33m0.6kb[m) and saving [33m16[m objects.
+2023-04-17 18:27:46,426 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:27:46,487 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.061 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:46,629 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:27:46,636 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:46,722 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:27:46,731 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:27:46,740 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:27:46,743 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.021 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:46,815 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.064 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:46,840 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.106 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:47,421 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:27:47,477 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.055 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:47,721 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:27:47,727 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:47,939 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:27:47,948 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.008 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:27:49,786 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:27:49,793 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:01,977 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'snt': 'urn:uuid:ced3eb03-ef23-46dc-982e-1e96278cc676', 'ctx': {'': ''}}
+2023-04-17 18:28:02,038 - ERROR - rt_error: main.jac:create_familytree - line 9, col 34 - rule expr_list - Execption within action call file.load_json! [Errno 2] No such file or directory: 'familytree.json'
+2023-04-17 18:28:02,039 - ERROR - rt_error: main.jac:create_familytree - line 9, col 34 - rule expr_list - Internal Exception: [Errno 2] No such file or directory: 'familytree.json'
+2023-04-17 18:28:02,074 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.096 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:02,146 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:28:02,155 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.008 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:40,669 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:28:41,411 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.742 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:28:43,958 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:28:43,969 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:47,502 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:28:47,503 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:28:47,516 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.013 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:47,578 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:28:47,583 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.077 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:47,651 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.067 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:28:55,153 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': None, 'ctx': {}}
+2023-04-17 18:28:55,211 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:28:55,212 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:28:55,217 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.063 seconds[m touched [33m18[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m3[m objects.
+2023-04-17 18:29:04,063 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:29:04,064 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:29:04,083 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.013 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:04,096 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.030 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:04,175 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:29:04,179 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:04,181 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:04,204 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.026 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:04,220 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.032 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:04,226 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.026 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:04,307 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:29:04,364 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.056 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:04,556 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:29:04,562 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:04,637 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:04,649 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.012 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:06,534 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:29:06,543 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:06,547 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:29:06,565 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.017 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:06,643 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:06,643 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:06,654 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:29:06,667 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.020 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:06,677 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.032 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:06,704 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.034 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:06,793 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:29:06,849 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.055 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:06,918 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:29:06,924 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:06,997 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:07,010 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.012 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:08,585 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:c1979eb6-7a17-4395-8f53-7cdccd062dc5', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:08,598 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.012 seconds[m touched [33m5[m mem / [33m0[m redis / [33m3[m db  ([33m0.2kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:10,563 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:29:10,569 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:29:10,570 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:29:10,630 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.045 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:10,736 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.167 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:10,748 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.163 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:16,858 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': None, 'ctx': {}}
+2023-04-17 18:29:16,917 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:29:16,918 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:29:16,927 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.069 seconds[m touched [33m22[m mem / [33m0[m redis / [33m15[m db  ([33m1.1kb[m) and saving [33m5[m objects.
+2023-04-17 18:29:28,728 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:29:28,732 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:29:28,754 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.025 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:28,755 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.017 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:29,771 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:29,773 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:29:29,775 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:29,809 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.038 seconds[m touched [33m11[m mem / [33m0[m redis / [33m6[m db  ([33m0.6kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:29,822 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.046 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:29,830 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.043 seconds[m touched [33m11[m mem / [33m0[m redis / [33m6[m db  ([33m0.6kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:29,990 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:29:30,072 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.081 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:30,143 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:29:30,149 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:30,221 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'show_edges': True, 'detailed': True}
+2023-04-17 18:29:30,238 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.017 seconds[m touched [33m11[m mem / [33m0[m redis / [33m6[m db  ([33m0.6kb[m) and saving [33m1[m objects.
+2023-04-17 18:29:31,756 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:29:31,768 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.011 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:31,809 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:29:31,811 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:29:31,923 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.112 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:31,928 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.115 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:29:40,131 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': None, 'ctx': {}}
+2023-04-17 18:29:40,201 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:29:40,203 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:29:40,228 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.096 seconds[m touched [33m26[m mem / [33m0[m redis / [33m17[m db  ([33m1.1kb[m) and saving [33m7[m objects.
+2023-04-17 18:33:39,726 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:33:39,727 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:33:39,730 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:33:39,741 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.014 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:33:39,855 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.119 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:33:39,867 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.137 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:33:41,346 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:33:41,357 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.010 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:24,071 - INFO - proc_request: Incoming call to graph_list with {'output': '', 'detailed': False}
+2023-04-17 18:37:24,088 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.017 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:40,930 - INFO - proc_request: Incoming call to graph_delete with {'gph': 'urn:uuid:f35b7df5-d51f-4477-bf1e-7f6d326f3932', 'output': ''}
+2023-04-17 18:37:40,983 - INFO - log_request_stats: API call to [32mgraph_delete[m completed in [33m0.052 seconds[m touched [33m8[m mem / [33m0[m redis / [33m8[m db  ([33m0.6kb[m) and saving [33m7[m objects.
+2023-04-17 18:37:51,217 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:37:51,753 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.535 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:37:54,152 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:37:54,156 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:37:54,161 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:37:54,185 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.026 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:54,286 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.131 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:54,302 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.135 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:56,855 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:37:56,863 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:56,940 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:37:56,944 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:37:56,951 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:37:56,960 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:37:56,963 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:37:56,964 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.019 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:56,971 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:37:56,975 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.010 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:56,979 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:56,980 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.039 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:57,353 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:37:57,416 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.062 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:57,498 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:37:57,504 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:57,567 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:37:57,573 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:37:57,573 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:37:59,903 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:37:59,910 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:03,939 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:38:03,945 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:05,010 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:38:05,020 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.009 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:05,178 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:38:05,190 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.011 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:05,393 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:38:05,400 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:09,556 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:38:09,557 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:38:09,561 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:38:09,580 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.020 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:09,672 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.110 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:09,693 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.129 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:11,999 - INFO - proc_request: Incoming call to architype_count with {'kind': 'node'}
+2023-04-17 18:38:12,001 - INFO - proc_request: Incoming call to architype_count with {'kind': 'edge'}
+2023-04-17 18:38:12,001 - INFO - proc_request: Incoming call to architype_count with {'kind': 'walker'}
+2023-04-17 18:38:12,003 - INFO - proc_request: Incoming call to info with {}
+2023-04-17 18:38:12,018 - INFO - log_request_stats: API call to [32minfo[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m0[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:12,121 - INFO - proc_request: Incoming call to architype_count with {'kind': 'graph'}
+2023-04-17 18:38:12,210 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.205 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:12,235 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.228 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:12,269 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.257 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:12,308 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.174 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,192 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:38:13,200 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,224 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:38:13,230 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,302 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:38:13,315 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:38:13,315 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:38:13,316 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:38:13,317 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.010 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,325 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,335 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:38:13,338 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.013 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,409 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:38:13,470 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.060 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,534 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:38:13,541 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:13,604 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:38:13,610 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:38:13,610 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:38:45,056 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': 'import {*} with "./graph.jac";\n\nwalker create_familytree {\n    // creates a familytree from a json file\n    has data_file = "family_tree.json";\n    has famly_members = [];\n\n    root {\n        families = f
+2023-04-17 18:38:45,093 - ERROR - interface_error: Internal Exception: Expecting value: line 1 column 1 (char 0)
+2023-04-17 18:38:45,093 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.037 seconds[m touched [33m6[m mem / [33m0[m redis / [33m3[m db  ([33m0.4kb[m) and saving [33m3[m objects.
+2023-04-17 18:39:22,961 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:39:23,725 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.763 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:39:27,232 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:39:27,240 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:30,282 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:39:30,289 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:30,727 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'gph': 'urn:uuid:b23c5492-be23-43ce-959b-c5916b2dd07b', 'mode': 'default', 'show_edges': True}
+2023-04-17 18:39:30,737 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.009 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:36,870 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:39:36,888 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.014 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:36,932 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:39:36,933 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:39:37,035 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.102 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:37,050 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.115 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:39:41,712 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': None, 'ctx': {}}
+2023-04-17 18:39:41,782 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:39:41,783 - ERROR - rt_error: main.jac:create_familytree - line 12, col 27 - rule index_slice - Key uid not found in object/dict.
+2023-04-17 18:39:41,786 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.074 seconds[m touched [33m18[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m3[m objects.
+2023-04-17 18:40:17,194 - INFO - proc_request: Incoming call to graph_list with {'output': '', 'detailed': False}
+2023-04-17 18:40:17,218 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.023 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:36,464 - INFO - proc_request: Incoming call to graph_delete with {'gph': 'urn:uuid:b23c5492-be23-43ce-959b-c5916b2dd07b', 'output': ''}
+2023-04-17 18:40:36,508 - INFO - log_request_stats: API call to [32mgraph_delete[m completed in [33m0.043 seconds[m touched [33m4[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m3[m objects.
+2023-04-17 18:40:47,193 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:40:47,820 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.626 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:40:50,578 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-17 18:40:50,580 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:40:50,580 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:40:50,603 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.022 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:50,714 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.124 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:50,714 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.131 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:53,131 - INFO - proc_request: Incoming call to architype_register with {'code': '', 'snt': 'urn:uuid:ced3eb03-ef23-46dc-982e-1e96278cc676', 'encoded': 'true'}
+2023-04-17 18:40:53,154 - ERROR - interface_error: Internal Exception: list index out of range
+2023-04-17 18:40:53,155 - INFO - log_request_stats: API call to [32marchitype_register[m completed in [33m0.022 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:53,220 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-17 18:40:53,224 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-17 18:40:53,354 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.120 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:53,360 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.136 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,451 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-17 18:40:55,455 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:40:55,463 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.010 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,472 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,538 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:40:55,540 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-17 18:40:55,540 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:40:55,548 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:40:55,554 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:40:55,556 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.015 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,561 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.017 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,561 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.012 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,638 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-17 18:40:55,696 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.057 seconds[m touched [33m14[m mem / [33m0[m redis / [33m13[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,759 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-17 18:40:55,764 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:55,820 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'mode': 'default', 'show_edges': True}
+2023-04-17 18:40:55,829 - ERROR - interface_error: No default graph node available!
+2023-04-17 18:40:55,832 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.011 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:40:58,720 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:40:58,726 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:08,479 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:41:09,102 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.623 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:41:11,212 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:41:11,221 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:14,722 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:14,730 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:20,116 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:20,129 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.009 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:20,922 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:20,928 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:21,241 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:21,249 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:21,414 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:21,421 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:21,571 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:21,577 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:21,740 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:21,746 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:21,981 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:21,987 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:41:22,174 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:41:22,181 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.007 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:42:05,520 - INFO - proc_request: Incoming call to graph_create with {'output': '', 'set_active': True}
+2023-04-17 18:42:05,555 - INFO - log_request_stats: API call to [32mgraph_create[m completed in [33m0.034 seconds[m touched [33m5[m mem / [33m0[m redis / [33m3[m db  ([33m0.2kb[m) and saving [33m2[m objects.
+2023-04-17 18:42:09,532 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-17 18:42:10,158 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.625 seconds[m touched [33m16[m mem / [33m0[m redis / [33m15[m db  ([33m0.6kb[m) and saving [33m15[m objects.
+2023-04-17 18:42:12,362 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-17 18:42:12,372 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:42:15,244 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-17 18:42:15,251 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:42:15,350 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'gph': 'urn:uuid:cb6acc13-2639-4d69-98b7-dd7bc80f9a8f', 'mode': 'default', 'show_edges': True}
+2023-04-17 18:42:15,358 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.008 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-17 18:42:24,985 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': 'urn:uuid:cb6acc13-2639-4d69-98b7-dd7bc80f9a8f', 'snt': 'urn:uuid:ced3eb03-ef23-46dc-982e-1e96278cc676', 'ctx': {'': ''}}
+2023-04-17 18:42:25,058 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.071 seconds[m touched [33m35[m mem / [33m0[m redis / [33m13[m db  ([33m1.1kb[m) and saving [33m8[m objects.
+2023-04-17 18:42:25,592 - INFO - proc_request: Incoming call to graph_node_view with {'detailed': True, 'gph': 'urn:uuid:cb6acc13-2639-4d69-98b7-dd7bc80f9a8f', 'mode': 'default', 'show_edges': True}
+2023-04-17 18:42:25,605 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.013 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:27,957 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:3b0deb7c-4c17-4908-a348-25475a2d8847', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:27,979 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.021 seconds[m touched [33m13[m mem / [33m0[m redis / [33m7[m db  ([33m0.6kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:31,126 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:cc85aa68-2720-4ae0-a2e2-6bd93ce9fee4', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:31,140 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.013 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:35,247 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:fc103a0a-0277-4e4d-adf5-0a5d4d94f1f8', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:35,267 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.019 seconds[m touched [33m14[m mem / [33m0[m redis / [33m7[m db  ([33m0.6kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:37,619 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:4b0bc28e-921a-44ed-a707-9f73efdeda50', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:37,633 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.014 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:39,994 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:5b42e838-aae5-4c7d-b249-ce31319e1ccd', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:40,009 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.015 seconds[m touched [33m9[m mem / [33m0[m redis / [33m5[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-17 18:42:43,032 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:10b9e33f-fe8f-42cd-9383-60e580a39e79', 'show_edges': True, 'detailed': True}
+2023-04-17 18:42:43,048 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.015 seconds[m touched [33m9[m mem / [33m0[m redis / [33m5[m db  ([33m0.4kb[m) and saving [33m1[m objects.

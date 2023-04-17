@@ -2,14 +2,14 @@ import {*} with "./graph.jac";
 
 walker create_familytree {
     // creates a familytree from a json file
-    has data_file = "familytree.json";
+    has data_file = "family_tree.json";
     has famly_members = [];
 
     root {
         families = file.load_json(data_file)["families"];
         for family in families {
             spawn here ++> node::family_root(
-                id = family["uid"],
+                id = family["id"],
                 family_name = family["family_name"]
             );
         }
