@@ -36,7 +36,8 @@ walker create_familytree {
                 deceased = member["deceased"],
                 parents = member["parents"],
                 children = member["children"],
-                spouse = member["spouse"]
+                spouse = member["spouse"],
+                hobbies = member["hobbies"]
             );
             famly_members.list::append(family_member);
         }
@@ -77,4 +78,30 @@ walker find_coming_birthday {
         }
 }
 
-//walker new {}
+walker hobby_list_maker {
+    has Hobby_list = {};
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        
+        member_hobbies = here.hobbies;
+        for hobby in member_hobbies{
+            if (hobby in Hobby_list.dict::keys) {
+                //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
+                Hobby_list.dict::update({hobby : Hobby_list[hobby].list::append(here.id) });
+                
+            } else {
+                //Hobby_list.dict::update({hobby : [here.id]});
+                Hobby_list[hobby] = [here.id];
+                report Hobby_list.dict::keys;
+            }
+            
+        }
+        
+    }
+    with exit {
+        report Hobby_list.dict::keys;
+        }
+
+}
