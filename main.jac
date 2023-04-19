@@ -119,3 +119,25 @@ walker hobby_cluster {
         }
 
 }
+
+walker find_all_cars {
+    has car_list = {};
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        
+        cars = here.cars;
+        if cars:
+            for car in cars:
+                if car in car_list:
+                    continue;
+                else:
+                    car_list.list::append(car);
+    }
+    with exit {
+        report car_list;
+        }
+
+}
