@@ -24,7 +24,7 @@
             "children": [],
             "spouse": null,
             "gender": "Male",
-            "hobbies": ["Music", "Reading"]
+            "hobbies": ["Music", "Reading", "Running"]
         },
         {
             "uid": "0x2",
