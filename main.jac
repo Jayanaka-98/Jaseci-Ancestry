@@ -87,16 +87,26 @@ walker hobby_list_maker {
         
         member_hobbies = here.hobbies;
         for hobby in member_hobbies{
-            if (hobby in Hobby_list.dict::keys) {
-                //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
-                Hobby_list.dict::update({hobby : Hobby_list[hobby].list::append(here.id) });
+            recorded = 0;
+            for hobby_key in Hobby_list.dict::keys {
+                if (hobby == hobby_key) {
+                    //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
+                    Hobby_list.dict::update({hobby_key : Hobby_list[hobby_key].list::append(here.id) });
+                    recorded = 1;
+                    
+                    report Hobby_list[hobby_key];
+                    continue;
                 
-            } else {
+                }
+                                
+            }
+            if(recorded == 0){
                 //Hobby_list.dict::update({hobby : [here.id]});
                 Hobby_list[hobby] = [here.id];
-                report Hobby_list.dict::keys;
+                //report Hobby_list.dict::keys;
             }
             
+                       
         }
         
     }
