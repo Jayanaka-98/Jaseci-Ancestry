@@ -109,9 +109,7 @@ walker hobby_cluster {
                 //Hobby_list.dict::update({hobby : [here.id]});
                 Hobby_list[hobby] = [here.id];
                 //report Hobby_list.dict::keys;
-            }
-            
-            
+            }         
                        
         }
         
