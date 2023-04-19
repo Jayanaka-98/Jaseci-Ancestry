@@ -24,7 +24,8 @@
             "children": [],
             "spouse": null,
             "gender": "Male",
-            "hobbies": ["Music", "Reading", "Running"]
+            "hobbies": ["Music", "Reading", "Running"],
+            "skills": ["Engineering", "Leadership", "Teamwork" ]
         },
         {
             "uid": "0x2",
@@ -41,7 +42,9 @@
             ],
             "spouse": "0x3",
             "gender": "Male",
-            "hobbies": ["Music", "Reading"]
+            "hobbies": ["Music", "Reading"],
+            "skills": ["Engineering", "Leadership", "Piano Playing" ]
+
         },
         {
             "uid": "0x3",
@@ -58,7 +61,8 @@
             ],
             "spouse": "0x2",
             "gender": "Female",
-            "hobbies": ["Music"]
+            "hobbies": ["Music"],
+            "skills": ["Cooking", "Piano Playing", "Teamwork" ]
         },
         {
             "uid": "0x4",
@@ -74,7 +78,8 @@
             "children": [],
             "spouse": null,
             "gender": "Female",
-            "hobbies": ["Reading"]
+            "hobbies": ["Reading"],
+            "skills": ["Communication", "Leadership", "Teamwork" ]
         },
         {
             "uid": "0x5",
@@ -90,7 +95,8 @@
             "children": [],
             "spouse": null,
             "gender": "Male",
-            "hobbies": ["Music", "Reading","Singing"]
+            "hobbies": ["Music", "Reading","Singing"],
+            "skills": ["Piano Playing", "Leadership", "Teamwork" ]
         }
     ]
 }
