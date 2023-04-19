@@ -883,3 +883,53 @@
 2023-04-19 11:12:00,185 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.008 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
 2023-04-19 11:12:00,239 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:bf5ee94b-709a-42cc-acb5-abc56b10f702', 'show_edges': True, 'detailed': True}
 2023-04-19 11:12:00,256 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.016 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.4kb[m) and saving [33m1[m objects.
+2023-04-19 11:48:47,504 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-19 11:48:47,752 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.247 seconds[m touched [33m17[m mem / [33m0[m redis / [33m16[m db  ([33m0.6kb[m) and saving [33m16[m objects.
+2023-04-19 11:48:53,307 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:48:53,308 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:48:53,354 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:48:53,405 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.051 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:48:53,486 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.177 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:48:53,505 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.195 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:48:57,391 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-19 11:48:57,420 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.028 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:01,063 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-19 11:49:01,073 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.010 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:03,795 - INFO - proc_request: Incoming call to object_get with {'obj': 'urn:uuid:c03f81ca-2110-4777-82ed-e11e0dc969b5', 'detailed': True}
+2023-04-19 11:49:03,802 - INFO - log_request_stats: API call to [32mobject_get[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:06,737 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:49:06,739 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:49:06,741 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:49:06,763 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.021 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:06,940 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.196 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:06,957 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.217 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:13,038 - INFO - proc_request: Incoming call to walker_run with {'name': 'hobby_list_maker', 'nd': None, 'ctx': {}}
+2023-04-19 11:49:13,141 - ERROR - rt_error: main.jac:hobby_list_maker - line 94, col 79 - rule TYP_LIST - Incompatible type for object None - NoneType, expecting [<class 'list'>]
+2023-04-19 11:49:13,144 - ERROR - rt_error: main.jac:hobby_list_maker - line 94, col 79 - rule TYP_LIST - Incompatible type for object None - NoneType, expecting [<class 'list'>]
+2023-04-19 11:49:13,146 - ERROR - rt_error: main.jac:hobby_list_maker - line 94, col 79 - rule TYP_LIST - Incompatible type for object None - NoneType, expecting [<class 'list'>]
+2023-04-19 11:49:13,148 - ERROR - rt_error: main.jac:hobby_list_maker - line 94, col 79 - rule TYP_LIST - Incompatible type for object None - NoneType, expecting [<class 'list'>]
+2023-04-19 11:49:13,150 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.112 seconds[m touched [33m39[m mem / [33m0[m redis / [33m24[m db  ([33m1.1kb[m) and saving [33m8[m objects.
+2023-04-19 11:49:43,986 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:49:43,999 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:49:44,002 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:49:44,007 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.019 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:44,126 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.119 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:49:44,150 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.150 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:51:50,263 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:51:50,303 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.040 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:51:50,325 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:51:50,326 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:51:50,520 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.193 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:51:50,541 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.212 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:52:13,503 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:52:13,523 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:52:13,542 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:52:13,557 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.048 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:52:13,770 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.245 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:52:13,803 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.258 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:55:12,601 - INFO - proc_request: Incoming call to architype_list with {'kind': 'walker', 'detailed': True}
+2023-04-19 11:55:12,615 - INFO - proc_request: Incoming call to sentinel_active_get with {}
+2023-04-19 11:55:12,625 - INFO - proc_request: Incoming call to architype_list with {'detailed': True}
+2023-04-19 11:55:12,678 - INFO - log_request_stats: API call to [32msentinel_active_get[m completed in [33m0.053 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-19 11:55:12,780 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.179 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
+2023-04-19 11:55:12,816 - INFO - log_request_stats: API call to [32marchitype_list[m completed in [33m0.183 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.6kb[m) and saving [33m0[m objects.
