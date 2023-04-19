@@ -25,7 +25,8 @@
       "spouse": null,
       "gender": "Male",
       "hobbies": ["Music", "Reading", "Running"],
-      "cars": ["BMW", "Ferarri"]
+      "cars": ["BMW", "Ferarri"],
+      "skills": ["Engineering", "Leadership", "Teamwork" ]
     },
     {
       "uid": "0x2",
@@ -39,7 +40,8 @@
       "spouse": "0x3",
       "gender": "Male",
       "hobbies": ["Music", "Reading"],
-      "cars": ["Toyota", "Lambogini"]
+      "cars": ["Toyota", "Lambogini"],
+      "skills": ["Engineering", "Leadership", "Piano Playing" ]
     },
     {
       "uid": "0x3",
@@ -53,7 +55,8 @@
       "spouse": "0x2",
       "gender": "Female",
       "hobbies": ["Music"],
-      "cars": ["Toyota"]
+      "cars": ["Toyota"],
+      "skills": ["Cooking", "Piano Playing", "Teamwork" ]
     },
     {
       "uid": "0x4",
@@ -70,7 +73,8 @@
       "spouse": null,
       "gender": "Female",
       "hobbies": ["Reading"],
-      "cars": ["Mahindra"]
+      "cars": ["Mahindra"],
+      "skills": ["Communication", "Leadership", "Teamwork" ]
     },
     {
       "uid": "0x5",
@@ -87,7 +91,9 @@
       "spouse": null,
       "gender": "Male",
       "hobbies": ["Music", "Reading", "Singing"],
-      "cars": ["Tesla"]
+      "cars": ["Tesla"],
+      "skills": ["Piano Playing", "Leadership", "Teamwork" ]
     }
   ]
 }
+
