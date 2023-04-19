@@ -86,7 +86,8 @@
       "children": [],
       "spouse": null,
       "gender": "Male",
-      "hobbies": ["Music", "Reading", "Singing"]
+      "hobbies": ["Music", "Reading", "Singing"],
+      "cars": ["Tesla"]
     }
   ]
 }
