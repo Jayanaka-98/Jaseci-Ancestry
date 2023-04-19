@@ -37,7 +37,8 @@ walker create_familytree {
                 parents = member["parents"],
                 children = member["children"],
                 spouse = member["spouse"],
-                hobbies = member["hobbies"]
+                hobbies = member["hobbies"],
+                cars = member["cars"]
             );
             famly_members.list::append(family_member);
         }
@@ -116,6 +117,29 @@ walker hobby_cluster {
     }
     with exit {
         report Hobby_list;
+        }
+
+}
+
+walker find_all_cars {
+    has anchor car_list = [];
+    has anchor cars;
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        
+        cars = here.cars;
+        if cars:
+            for car in cars:
+                if car in car_list:
+                    continue;
+                else:
+                    car_list.list::append(car);
+    }
+    with exit {
+        report car_list;
         }
 
 }
