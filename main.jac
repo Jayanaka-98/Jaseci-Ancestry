@@ -194,7 +194,7 @@ walker find_all_cars {
 
 }
 
-walker possible_blood_donars {
+walker possible_blood_donors {
     has blood_group = {"O+":[],"O-":[],"A+":[],"A-":[],"B+":[],"B-":[],"AB+":[],"AB-":[]};
     has member_blood = "";
     has recorded = 0;
