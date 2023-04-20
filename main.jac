@@ -97,13 +97,10 @@ walker hobby_cluster {
             recorded = 0;
             for hobby_key in Hobby_list.dict::keys {
                 if (hobby == hobby_key) {
-                    //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
                     prev_Hobby_list = Hobby_list[hobby_key];
-                    //report prev_Hobby_list;
                     Hobby_list.dict::update({ hobby_key :  prev_Hobby_list + [here.id]});
                     //Hobby_list.dict::update({ hobby_key : prev_Hobby_list + here.id });
                     recorded = 1;
-                    
                     //report Hobby_list[hobby_key];
                 
                 }
@@ -142,22 +139,14 @@ walker skill_cluster {
             recorded = 0;
             for skill_key in skill_list.dict::keys {
                 if (skill == skill_key) {
-                    //skill_list[skill] = skill_list[skill].list::append(here.id);
                     prev_skill_list = skill_list[skill_key];
-                    //report prev_skill_list;
                     skill_list.dict::update({ skill_key :  prev_skill_list + [here.id]});
-                    //skill_list.dict::update({ skill_key : prev_skill_list + here.id });
                     recorded = 1;
-                    
-                    //report skill_list[skill_key];
-                
                 }
                                 
             }
             if(recorded == 0){
-                //skill_list.dict::update({skill : [here.id]});
                 skill_list[skill] = [here.id];
-                //report skill_list.dict::keys;
             }         
                        
         }
