@@ -15,7 +15,11 @@ node person {
     has parents;
     has children;
     has spouse;
-    has hobbies; 
+    has hobbies;
+    has skills; 
+    has cars;
+    has blood_group;
+
 
     has age;
     has days_to_birthday;
