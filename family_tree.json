@@ -19,7 +19,7 @@
     {
       "uid": "0x1",
       "family_id": "0x1",
-      "name": "Jayanaka Irugalbandara",
+      "name": "Jayanaka Dantanarayana",
       "date_of_birth": "1998-05-20",
       "profession": "University Student",
       "parents": {
@@ -28,7 +28,7 @@
       },
       "deceased": false,
       "children": [],
-      "spouse": null,
+      "spouse": "0x12",
       "gender": "Male",
       "hobbies": ["Music", "Reading", "Electronics"],
       "cars": ["Honda Vezel"],
@@ -43,7 +43,7 @@
       "profession": "Electrical Engineer",
       "parents": null,
       "deceased": true,
-      "children": ["0x1", "ox4", "0x5"],
+      "children": ["0x1", "0x4", "0x5"],
       "spouse": "0x3",
       "gender": "Male",
       "hobbies": ["Music", "Reading"],
@@ -53,7 +53,7 @@
     },
     {
       "uid": "0x3",
-      "family_id": "0x2",
+      "family_id": "0x1",
       "name": "Thushara Danthanarayana",
       "date_of_birth": "1966-12-15",
       "profession": "Housewife",
@@ -84,7 +84,7 @@
       "hobbies": ["Reading","Programming"],
       "cars": [],
       "skills": ["Communication", "Leadership", "Teaching" ],
-      "blood_group" : "B+"
+      "blood_group" : "B-"
     },
     {
       "uid": "0x5",
@@ -117,8 +117,8 @@
         "mother": "0x8"
       },
       "deceased": false,
-      "children": ["ox9","ox10"],
-      "spouse": "Ox11",
+      "children": ["0x9","0x10"],
+      "spouse": "0x11",
       "gender": "Male",
       "hobbies": ["Reading", "Watching TV","Agriculture","Driving"],
       "cars": ["Nissan Vanette","Toyota Hilux"],
@@ -133,7 +133,7 @@
       "profession": "Farmer",
       "parents": null,
       "deceased": true,
-      "children": ["ox6"],
+      "children": ["0x6"],
       "spouse": null,
       "gender": "Male",
       "hobbies": ["Agriculture"],
@@ -149,13 +149,13 @@
       "profession": "HouseWife",
       "parents": null,
       "deceased": true,
-      "children": ["ox6"],
-      "spouse": "ox7",
+      "children": ["0x6"],
+      "spouse": "0x7",
       "gender": "Female",
       "hobbies": ["Cooking","Reading"],
       "cars": [],
       "skills": ["Farming", "Cooking"],
-      "blood_group" : "B+"
+      "blood_group" : "O+"
     },
     {
       "uid": "0x9",
@@ -168,13 +168,13 @@
         "mother": "0x11"
       },
       "deceased": false,
-      "children": null,
+      "children": [],
       "spouse": null,
       "gender": "Male",
       "hobbies": ["Reading", "Watching TV","Travelling"],
       "cars": ["Nissan Vanette"],
       "skills": ["Analytical Skills","Maths","Driving" ],
-      "blood_group" : "A+"
+      "blood_group" : "AB-"
     },
     {
       "uid": "0x10",
@@ -187,7 +187,7 @@
         "mother": "0x11"
       },
       "deceased": false,
-      "children": null,
+      "children": [],
       "spouse": null,
       "gender": "Female",
       "hobbies": ["Cooking", "Watching TV","Travelling"],
@@ -203,13 +203,13 @@
       "profession": "Teacher",
       "parents": null,
       "deceased": false,
-      "children": ["ox9","ox10"],
-      "spouse": "Ox6",
+      "children": ["0x9","0x10"],
+      "spouse": "0x6",
       "gender": "Female",
       "hobbies": ["Reading", "Cooking","Gardening"],
       "cars": ["Nissan Vanette","Toyota Hilux"],
       "skills": ["Cooking", "Teaching","Farming" ],
-      "blood_group" : "AB+"
+      "blood_group" : "O-"
     },
     {
       "uid": "0x12",
@@ -220,12 +220,12 @@
       "parents": null,
       "deceased": false,
       "children": [],
-      "spouse": "Ox11",
+      "spouse": "0x1",
       "gender": "Female",
       "hobbies": ["Reading", "Cooking","Gardening"],
       "cars": [],
       "skills": ["Cooking", "Math","Communication" ],
-      "blood_group" : "AB+"
+      "blood_group" : "AB-"
     }
   ]
 }
