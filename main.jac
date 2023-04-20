@@ -38,7 +38,10 @@ walker create_familytree {
                 children = member["children"],
                 spouse = member["spouse"],
                 hobbies = member["hobbies"],
-                cars = member["cars"]
+                skills = member["skills"],
+                cars = member["cars"],
+                blood_group = member["blood_group"]
+
             );
             famly_members.list::append(family_member);
         }
@@ -94,13 +97,10 @@ walker hobby_cluster {
             recorded = 0;
             for hobby_key in Hobby_list.dict::keys {
                 if (hobby == hobby_key) {
-                    //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
                     prev_Hobby_list = Hobby_list[hobby_key];
-                    //report prev_Hobby_list;
                     Hobby_list.dict::update({ hobby_key :  prev_Hobby_list + [here.id]});
                     //Hobby_list.dict::update({ hobby_key : prev_Hobby_list + here.id });
                     recorded = 1;
-                    
                     //report Hobby_list[hobby_key];
                 
                 }
@@ -121,9 +121,48 @@ walker hobby_cluster {
 
 }
 
+
+walker skill_cluster {
+    has skill_list = {};
+    has member_skills = [];
+    has recorded = 0;
+    has prev_skill_list = [];
+    
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+    
+
+        member_skills = here.skills;
+        for skill in member_skills{
+            recorded = 0;
+            for skill_key in skill_list.dict::keys {
+                if (skill == skill_key) {
+                    prev_skill_list = skill_list[skill_key];
+                    skill_list.dict::update({ skill_key :  prev_skill_list + [here.id]});
+                    recorded = 1;
+                }
+                                
+            }
+            if(recorded == 0){
+                skill_list[skill] = [here.id];
+            }         
+                       
+        }
+        
+    }
+    with exit {
+        report skill_list; 
+        }
+
+}
+    
+
 walker find_all_cars {
     has anchor car_list = [];
     has anchor cars;
+
 
     root: take-->node::family_root;
     family_root: take-->node::person;
@@ -143,3 +182,72 @@ walker find_all_cars {
         }
 
 }
+
+walker possible_blood_donors {
+    has blood_group = {"O+":[],"O-":[],"A+":[],"A-":[],"B+":[],"B-":[],"AB+":[],"AB-":[]};
+    has member_blood = "";
+    has recorded = 0;
+    has prev_blood_group_list = [];
+    
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        member_blood = here.blood_group;
+        if (member_blood == "O+"){
+            for key in ["O+","A+","B+","AB+"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+
+        if (member_blood == "A+"){
+            for key in ["A+","AB+"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "B+"){
+            for key in ["B+","AB+"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "AB+"){
+            for key in ["AB+"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "O-"){
+            for key in ["O+","O-","A+","A-","B+","B-","AB+","AB-"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "A-"){
+            for key in ["A+","A-","AB+","AB-"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "B-"){
+            for key in ["B+","B-","AB+","AB-"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        }
+         if (member_blood == "AB-"){
+            for key in ["AB+","AB-"]{
+                prev_blood_group_list = blood_group[key];
+                blood_group.dict::update({ key :  prev_blood_group_list + [here.id]});
+            }    
+        } 
+        
+    }
+    with exit {
+        report blood_group; 
+        }
+
+}
+    
