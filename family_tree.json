@@ -26,7 +26,8 @@
       "gender": "Male",
       "hobbies": ["Music", "Reading", "Running"],
       "cars": ["BMW", "Ferarri"],
-      "skills": ["Engineering", "Leadership", "Teamwork" ]
+      "skills": ["Engineering", "Leadership", "Teamwork" ],
+      "blood_group" : "B+"
     },
     {
       "uid": "0x2",
@@ -41,7 +42,8 @@
       "gender": "Male",
       "hobbies": ["Music", "Reading"],
       "cars": ["Toyota", "Lambogini"],
-      "skills": ["Engineering", "Leadership", "Piano Playing" ]
+      "skills": ["Engineering", "Leadership", "Piano Playing" ],
+      "blood_group" : "O+"
     },
     {
       "uid": "0x3",
@@ -56,7 +58,8 @@
       "gender": "Female",
       "hobbies": ["Music"],
       "cars": ["Toyota"],
-      "skills": ["Cooking", "Piano Playing", "Teamwork" ]
+      "skills": ["Cooking", "Piano Playing", "Teamwork" ],
+      "blood_group" : "AB+"
     },
     {
       "uid": "0x4",
@@ -74,7 +77,8 @@
       "gender": "Female",
       "hobbies": ["Reading"],
       "cars": ["Mahindra"],
-      "skills": ["Communication", "Leadership", "Teamwork" ]
+      "skills": ["Communication", "Leadership", "Teamwork" ],
+      "blood_group" : "B+"
     },
     {
       "uid": "0x5",
@@ -92,7 +96,8 @@
       "gender": "Male",
       "hobbies": ["Music", "Reading", "Singing"],
       "cars": ["Tesla"],
-      "skills": ["Piano Playing", "Leadership", "Teamwork" ]
+      "skills": ["Piano Playing", "Leadership", "Teamwork" ],
+      "blood_group" : "AB+"
     }
   ]
 }

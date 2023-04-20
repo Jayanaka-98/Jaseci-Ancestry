@@ -18,6 +18,7 @@ node person {
     has hobbies;
     has skills; 
     has cars;
+    has blood_group;
 
 
     has age;
