@@ -8,6 +8,8 @@ We have added four new features to the `family_tree.json` file to represent hobb
 
   ###   1. hobby_cluster
 This walker is used to create a dictionary which includes lists including people with mutual hobbies. The hobbies are added as keys on ad-hoc basis which does not limit the number of defined hobbies.
+  ###   2. find_all_cars
+This walker isused to create a list which includes all types of unique cars.
 
 The `spouses` field is an array, so you can include multiple spouses if necessary.
 
