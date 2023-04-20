@@ -39,7 +39,7 @@ walker create_familytree {
                 spouse = member["spouse"],
                 hobbies = member["hobbies"],
 
-                skills = member["skills"]
+                skills = member["skills"],
 
                 cars = member["cars"]
 
