@@ -25,9 +25,7 @@ We found the Jaseci documentation to be very helpful in understanding how to wor
 
 ## Demo
 
-Here is a demo video showing how to use the new spouse feature:
-
-https://user-images.githubusercontent.com/110921856/233441420-0983fa31-3e4f-4867-98fb-4f63cb5b6bbc.mp4
+Here is a demo video:
 
 ## Contributors
 
