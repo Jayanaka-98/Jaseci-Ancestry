@@ -2,6 +2,8 @@
 
 This repository is for the Jaseci-Ancestry project, which uses Jaseci to build a family tree data structure and provides functionality to explore ancestry and descendants.
 
+![Image20230420223857](https://user-images.githubusercontent.com/111507682/233439650-98560d98-28ca-4ca9-9613-50690c4f2d79.png)
+
 ## New Features - Hobbies, Cars, Skills, and Blood Group
 
 We have added four new features to the `family_tree.json` file to represent hobbies, cars, skills, and blood group for individuals in the family tree. These features were implemented to provide more information about individuals in the family tree and make it easier to find people with similar attributes. The four 'walkers' accomplish four different tasks.
@@ -10,6 +12,8 @@ We have added four new features to the `family_tree.json` file to represent hobb
 This walker is used to create a dictionary which includes lists including people with mutual hobbies. The hobbies are added as keys on ad-hoc basis which does not limit the number of defined hobbies.
   ###   2. find_all_cars
 This walker isused to create a list which includes all types of unique cars.
+  ###   3. skill_cluster
+This walker is used to create a dictionary which includes people with mutual skills. The skills are added as keys on ad-hoc basis which does not limit the number of defined skills.
   ###   4. possible_blood_donors
 This walker is used to create a dictionary which includes lists of possible people to donate blood for each blood group. This includes all the blood groups and possible donors.
 
