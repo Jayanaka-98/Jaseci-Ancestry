@@ -19,9 +19,9 @@
     {
       "uid": "0x1",
       "family_id": "0x1",
-      "name": "Chandra Irugalbandara",
-      "date_of_birth": "1996-02-10",
-      "profession": "Machine Learning Engineer",
+      "name": "Jayanaka Irugalbandara",
+      "date_of_birth": "1998-05-20",
+      "profession": "University Student",
       "parents": {
         "father": "0x2",
         "mother": "0x3"
@@ -30,48 +30,67 @@
       "children": [],
       "spouse": null,
       "gender": "Male",
-      "hobbies": ["Music", "Reading", "Running"],
-      "cars": ["BMW", "Ferarri"],
-      "skills": ["Engineering", "Leadership", "Teamwork" ],
+      "hobbies": ["Music", "Reading", "Electronics"],
+      "cars": ["Honda Vezel"],
+      "skills": ["Engineering", "Leadership", "Singing","Communication" ],
       "blood_group" : "B+"
     },
     {
       "uid": "0x2",
       "family_id": "0x1",
-      "name": "Sujeewa Rathnakumara",
-      "date_of_birth": "1966-02-10",
-      "profession": "Mechanical Engineer",
+      "name": "Sujeewa Danthanarayana",
+      "date_of_birth": "1963-02-18",
+      "profession": "Electrical Engineer",
       "parents": null,
       "deceased": true,
       "children": ["0x1", "ox4", "0x5"],
       "spouse": "0x3",
       "gender": "Male",
       "hobbies": ["Music", "Reading"],
-      "cars": ["Toyota", "Lambogini"],
-      "skills": ["Engineering", "Leadership", "Piano Playing" ],
+      "cars": ["Mitsubhishi Eclipse Cross", "Honda Vezel"],
+      "skills": ["Engineering", "Leadership" ],
       "blood_group" : "O+"
     },
     {
       "uid": "0x3",
       "family_id": "0x2",
-      "name": "Damayanthi Manike",
-      "date_of_birth": "1966-02-10",
+      "name": "Thushara Danthanarayana",
+      "date_of_birth": "1966-12-15",
       "profession": "Housewife",
       "parents": null,
       "deceased": false,
       "children": ["0x1", "0x4", "0x5"],
       "spouse": "0x2",
       "gender": "Female",
-      "hobbies": ["Music"],
-      "cars": ["Toyota"],
-      "skills": ["Cooking", "Piano Playing", "Teamwork" ],
+      "hobbies": ["Music","Travelling"],
+      "cars": ["Honda Vezel"],
+      "skills": ["Cooking", "Driving" ],
       "blood_group" : "AB+"
     },
     {
       "uid": "0x4",
       "family_id": "0x1",
-      "name": "Vishwa Irugalbandara",
-      "date_of_birth": "1994-03-19",
+      "name": "Harshana Danthannarayana",
+      "date_of_birth": "1991-04-29",
+      "profession": "Senior Software Engineer",
+      "parents": {
+        "father": "0x2",
+        "mother": "0x3"
+      },
+      "deceased": false,
+      "children": [],
+      "spouse": null,
+      "gender": "Female",
+      "hobbies": ["Reading","Programming"],
+      "cars": [],
+      "skills": ["Communication", "Leadership", "Teaching" ],
+      "blood_group" : "B+"
+    },
+    {
+      "uid": "0x5",
+      "family_id": "0x1",
+      "name": "Deependra Danthanarayana",
+      "date_of_birth": "1994-06-23",
       "profession": "Doctor",
       "parents": {
         "father": "0x2",
@@ -80,30 +99,11 @@
       "deceased": false,
       "children": [],
       "spouse": null,
-      "gender": "Female",
-      "hobbies": ["Reading"],
-      "cars": ["Mahindra"],
-      "skills": ["Communication", "Leadership", "Teamwork" ],
-      "blood_group" : "B+"
-    },
-    {
-      "uid": "0x5",
-      "family_id": "0x1",
-      "name": "Darsha Irugalbandara",
-      "date_of_birth": "1996-06-23",
-      "profession": "US Coast Guard Office",
-      "parents": {
-        "father": "0x2",
-        "mother": "0x3"
-      },
-      "deceased": false,
-      "children": [],
-      "spouse": null,
       "gender": "Male",
-      "hobbies": ["Music", "Reading", "Singing"],
-      "cars": ["Tesla"],
+      "hobbies": ["Reading", "Watching TV"],
+      "cars": ["Toyota"],
       "skills": ["Piano Playing", "Leadership", "Teamwork" ],
-      "blood_group" : "AB+"
+      "blood_group" : "A-"
     },
     
     {
@@ -209,6 +209,22 @@
       "hobbies": ["Reading", "Cooking","Gardening"],
       "cars": ["Nissan Vanette","Toyota Hilux"],
       "skills": ["Cooking", "Teaching","Farming" ],
+      "blood_group" : "AB+"
+    },
+    {
+      "uid": "0x12",
+      "family_id": "0x2",
+      "name": "Savini Kashmira",
+      "date_of_birth": "1998-11-30",
+      "profession": "University Student",
+      "parents": null,
+      "deceased": false,
+      "children": [],
+      "spouse": "Ox11",
+      "gender": "Female",
+      "hobbies": ["Reading", "Cooking","Gardening"],
+      "cars": [],
+      "skills": ["Cooking", "Math","Communication" ],
       "blood_group" : "AB+"
     }
   ]
