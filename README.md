@@ -6,7 +6,7 @@ This repository is for the Jaseci-Ancestry project, which uses Jaseci to build a
 
 We have added four new features to the `family_tree.json` file to represent hobbies, cars, skills, and blood group for individuals in the family tree. These features were implemented to provide more information about individuals in the family tree and make it easier to find people with similar attributes. The four 'walkers' accomplish four different tasks.
 
-### 1. hobby_cluster
+        ## 1. hobby_cluster
         This walker is used to create a dictionary which includes lists including people with mutual hobbies. The hobbies are added as keys on ad-hoc basis which does not limit the number of defined hobbies.
 
 The `spouses` field is an array, so you can include multiple spouses if necessary.
