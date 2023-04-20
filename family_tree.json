@@ -1,17 +1,19 @@
 {
   "families": [
     {
-      "family_name": "Irugalbandara",
+      "family_name": "Danthanarayana",
       "id": "0x1"
     },
     {
       "family_name": "Jayalath",
       "id": "0x2"
-    }
+    },
+
     {
       "family_name": "Witharama",
       "id": "0x3"
     }
+
   ],
   "members": [
     {
@@ -101,6 +103,112 @@
       "hobbies": ["Music", "Reading", "Singing"],
       "cars": ["Tesla"],
       "skills": ["Piano Playing", "Leadership", "Teamwork" ],
+      "blood_group" : "AB+"
+    },
+    
+    {
+      "uid": "0x6",
+      "family_id": "0x3",
+      "name": "Rathnayaka Witharama",
+      "date_of_birth": "1958-11-23",
+      "profession": "Research Officer(Retired)",
+      "parents": {
+        "father": "0x7",
+        "mother": "0x8"
+      },
+      "deceased": false,
+      "children": ["ox9","ox10"],
+      "spouse": "Ox11",
+      "gender": "Male",
+      "hobbies": ["Reading", "Watching TV","Agriculture","Driving"],
+      "cars": ["Nissan Vanette","Toyota Hilux"],
+      "skills": ["Research", "Teamwork" ],
+      "blood_group" : "A+"
+    },
+    {
+      "uid": "0x7",
+      "family_id": "0x3",
+      "name": "Podi Appuhami Witharama",
+      "date_of_birth": "1911-01-20",
+      "profession": "Farmer",
+      "parents": null,
+      "deceased": true,
+      "children": ["ox6"],
+      "spouse": null,
+      "gender": "Male",
+      "hobbies": ["Agriculture"],
+      "cars": [],
+      "skills": ["Farming", "Teamwork","Mining","Climbing Trees" ],
+      "blood_group" : "AB+"
+    },
+    {
+      "uid": "0x8",
+      "family_id": "0x3",
+      "name": "Ranohami",
+      "date_of_birth": "1921-01-20",
+      "profession": "HouseWife",
+      "parents": null,
+      "deceased": true,
+      "children": ["ox6"],
+      "spouse": "ox7",
+      "gender": "Female",
+      "hobbies": ["Cooking","Reading"],
+      "cars": [],
+      "skills": ["Farming", "Cooking"],
+      "blood_group" : "B+"
+    },
+    {
+      "uid": "0x9",
+      "family_id": "0x3",
+      "name": "Mudith Witharama",
+      "date_of_birth": "1998-11-03",
+      "profession": "University Student",
+      "parents": {
+        "father": "0x6",
+        "mother": "0x11"
+      },
+      "deceased": false,
+      "children": null,
+      "spouse": null,
+      "gender": "Male",
+      "hobbies": ["Reading", "Watching TV","Travelling"],
+      "cars": ["Nissan Vanette"],
+      "skills": ["Analytical Skills","Maths","Driving" ],
+      "blood_group" : "A+"
+    },
+    {
+      "uid": "0x10",
+      "family_id": "0x3",
+      "name": "Supipi Witharama",
+      "date_of_birth": "2001-06-20",
+      "profession": "University Student",
+      "parents": {
+        "father": "0x6",
+        "mother": "0x11"
+      },
+      "deceased": false,
+      "children": null,
+      "spouse": null,
+      "gender": "Female",
+      "hobbies": ["Cooking", "Watching TV","Travelling"],
+      "cars": [],
+      "skills": ["Cooking","Violin","Driving" ],
+      "blood_group" : "B+"
+    },
+    {
+      "uid": "0x11",
+      "family_id": "0x3",
+      "name": "Champa Weerakoon",
+      "date_of_birth": "1963-04-30",
+      "profession": "Teacher",
+      "parents": null,
+      "deceased": false,
+      "children": ["ox9","ox10"],
+      "spouse": "Ox6",
+      "gender": "Female",
+      "hobbies": ["Reading", "Cooking","Gardening"],
+      "cars": ["Nissan Vanette","Toyota Hilux"],
+      "skills": ["Cooking", "Teaching","Farming" ],
       "blood_group" : "AB+"
     }
   ]
