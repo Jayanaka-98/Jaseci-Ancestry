@@ -19,7 +19,7 @@
     {
       "uid": "0x1",
       "family_id": "0x1",
-      "name": "Jayanaka Irugalbandara",
+      "name": "Jayanaka Dantanarayana",
       "date_of_birth": "1998-05-20",
       "profession": "University Student",
       "parents": {
@@ -53,7 +53,7 @@
     },
     {
       "uid": "0x3",
-      "family_id": "0x2",
+      "family_id": "0x1",
       "name": "Thushara Danthanarayana",
       "date_of_birth": "1966-12-15",
       "profession": "Housewife",
@@ -84,7 +84,7 @@
       "hobbies": ["Reading","Programming"],
       "cars": [],
       "skills": ["Communication", "Leadership", "Teaching" ],
-      "blood_group" : "B+"
+      "blood_group" : "B-"
     },
     {
       "uid": "0x5",
@@ -155,7 +155,7 @@
       "hobbies": ["Cooking","Reading"],
       "cars": [],
       "skills": ["Farming", "Cooking"],
-      "blood_group" : "B+"
+      "blood_group" : "O+"
     },
     {
       "uid": "0x9",
@@ -168,13 +168,13 @@
         "mother": "0x11"
       },
       "deceased": false,
-      "children": null,
+      "children": [],
       "spouse": null,
       "gender": "Male",
       "hobbies": ["Reading", "Watching TV","Travelling"],
       "cars": ["Nissan Vanette"],
       "skills": ["Analytical Skills","Maths","Driving" ],
-      "blood_group" : "A+"
+      "blood_group" : "AB-"
     },
     {
       "uid": "0x10",
@@ -187,7 +187,7 @@
         "mother": "0x11"
       },
       "deceased": false,
-      "children": null,
+      "children": [],
       "spouse": null,
       "gender": "Female",
       "hobbies": ["Cooking", "Watching TV","Travelling"],
@@ -209,7 +209,7 @@
       "hobbies": ["Reading", "Cooking","Gardening"],
       "cars": ["Nissan Vanette","Toyota Hilux"],
       "skills": ["Cooking", "Teaching","Farming" ],
-      "blood_group" : "AB+"
+      "blood_group" : "O-"
     },
     {
       "uid": "0x12",
@@ -225,7 +225,7 @@
       "hobbies": ["Reading", "Cooking","Gardening"],
       "cars": [],
       "skills": ["Cooking", "Math","Communication" ],
-      "blood_group" : "AB+"
+      "blood_group" : "AB-"
     }
   ]
 }
