@@ -2,7 +2,7 @@
 
 This repository is for the Jaseci-Ancestry project, which uses Jaseci to build a family tree data structure and provides functionality to explore ancestry and descendants.
 
-<img src="./family.png" alt="Family Tree Image" width="200"/>
+<img src="./family.png" alt="Family Tree Image" width="500"/>
 
 ## New Features - Hobbies, Cars, Skills, and Blood Group
 
