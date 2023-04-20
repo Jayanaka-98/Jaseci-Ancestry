@@ -4,15 +4,16 @@ This repository is for the Jaseci-Ancestry project, which uses Jaseci to build a
 
 ## New Features - Hobbies, Cars, Skills, and Blood Group
 
-We have added four new features to the `family_tree.json` file to represent hobbies, cars, skills, and blood group for individuals in the family tree. These features were implemented to provide more information about individuals in the family tree and make it easier to find people with similar attributes.
+We have added four new features to the `family_tree.json` file to represent hobbies, cars, skills, and blood group for individuals in the family tree. These features were implemented to provide more information about individuals in the family tree and make it easier to find people with similar attributes. The four 'walkers' accomplish four different tasks.
 
-To add these features to an individual, simply specify their values in the `family_tree.json` file. 
+   1. hobby_cluster
+        This walker is used to create a dictionary which includes lists including people with mutual hobbies. The hobbies are added as keys on ad-hoc basis which does not limit the number of defined hobbies.
 
-The `spouses` field is an array, so you can include multiple spouses if necessary.(LoL)
+The `spouses` field is an array, so you can include multiple spouses if necessary.
 
 ## Experience
 
-Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to 
+Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to categorize individuals with similar attributes.
 
 We found the Jaseci documentation to be very helpful in understanding how to work with the Jaseci framework. The documentation is well-organized and includes many examples that helped us to get started quickly.
 
