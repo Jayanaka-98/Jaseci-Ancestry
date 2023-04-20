@@ -1415,3 +1415,5 @@ ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
 2023-04-20 06:08:08,276 - INFO - log_request_stats: API call from [32m180317d@uom.lk[m:urn:uuid:28272d65-3214-4f43-a412-498cbf155d30 to [32marchitype_count[m completed in [33m0.004 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects. Response: {'response': "Internal Exception: 'NoneType' object has no attribute 'arch_ids'", 'success': False, 'errors': ["Internal Exception: 'NoneType' object has no attribute 'arch_ids'"], 'stack_trace': ['Traceback (most recent call last):\n', '  File "/usr/local.
 2023-04-20 06:08:29,090 - ERROR - start: Skipping RedisService due to initialization failure!
 ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-04-20 06:43:52,977 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
