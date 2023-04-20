@@ -9,8 +9,6 @@ We have added four new features to the `family_tree.json` file to represent hobb
    1. hobby_cluster
         This walker is used to create a dictionary which includes lists including people with mutual hobbies. The hobbies are added as keys on ad-hoc basis which does not limit the number of defined hobbies.
 
-The `spouses` field is an array, so you can include multiple spouses if necessary.
-
 ## Experience
 
 Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to categorize individuals with similar attributes.
@@ -19,7 +17,7 @@ We found the Jaseci documentation to be very helpful in understanding how to wor
 
 ## Demo
 
-Here is a demo video showing how to use the new spouse feature:
+Here is a demo video showing how to use the new feature:
 
 [![Demo Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
 
