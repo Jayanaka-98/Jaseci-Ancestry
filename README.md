@@ -12,7 +12,7 @@ The `spouses` field is an array, so you can include multiple spouses if necessar
 
 ## Experience
 
-Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to 
+Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to categorize individuals with similar attributes.
 
 We found the Jaseci documentation to be very helpful in understanding how to work with the Jaseci framework. The documentation is well-organized and includes many examples that helped us to get started quickly.
 
