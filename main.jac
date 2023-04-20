@@ -2,14 +2,14 @@ import {*} with "./graph.jac";
 
 walker create_familytree {
     // creates a familytree from a json file
-    has data_file = "familytree.json";
+    has data_file = "family_tree.json";
     has famly_members = [];
 
     root {
         families = file.load_json(data_file)["families"];
         for family in families {
             spawn here ++> node::family_root(
-                id = family["uid"],
+                id = family["id"],
                 family_name = family["family_name"]
             );
         }
@@ -36,7 +36,13 @@ walker create_familytree {
                 deceased = member["deceased"],
                 parents = member["parents"],
                 children = member["children"],
-                spouse = member["spouse"]
+                spouse = member["spouse"],
+                hobbies = member["hobbies"],
+
+                skills = member["skills"],
+
+                cars = member["cars"]
+
             );
             famly_members.list::append(family_member);
         }
@@ -74,5 +80,117 @@ walker find_coming_birthday {
         birthday_order = birthday_order[0:max_return];
         std.out(birthday_order);
         report birthday_order;
-    }
+        }
+}
+
+walker hobby_cluster {
+    has Hobby_list = {};
+    has member_hobbies = [];
+    has recorded = 0;
+    has prev_Hobby_list = [];
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        
+        member_hobbies = here.hobbies;
+        for hobby in member_hobbies{
+            recorded = 0;
+            for hobby_key in Hobby_list.dict::keys {
+                if (hobby == hobby_key) {
+                    //Hobby_list[hobby] = Hobby_list[hobby].list::append(here.id);
+                    prev_Hobby_list = Hobby_list[hobby_key];
+                    //report prev_Hobby_list;
+                    Hobby_list.dict::update({ hobby_key :  prev_Hobby_list + [here.id]});
+                    //Hobby_list.dict::update({ hobby_key : prev_Hobby_list + here.id });
+                    recorded = 1;
+                    
+                    //report Hobby_list[hobby_key];
+                
+                }
+                                
+            }
+            if(recorded == 0){
+                //Hobby_list.dict::update({hobby : [here.id]});
+                Hobby_list[hobby] = [here.id];
+                //report Hobby_list.dict::keys;
+            }         
+                       
+        }
+        
+    }
+    with exit {
+        report Hobby_list;
+        }
+
+}
+
+
+walker skill_cluster {
+    has skill_list = {};
+    has member_skills = [];
+    has recorded = 0;
+    has prev_skill_list = [];
+    
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+    
+
+        member_skills = here.skills;
+        for skill in member_skills{
+            recorded = 0;
+            for skill_key in skill_list.dict::keys {
+                if (skill == skill_key) {
+                    //skill_list[skill] = skill_list[skill].list::append(here.id);
+                    prev_skill_list = skill_list[skill_key];
+                    //report prev_skill_list;
+                    skill_list.dict::update({ skill_key :  prev_skill_list + [here.id]});
+                    //skill_list.dict::update({ skill_key : prev_skill_list + here.id });
+                    recorded = 1;
+                    
+                    //report skill_list[skill_key];
+                
+                }
+                                
+            }
+            if(recorded == 0){
+                //skill_list.dict::update({skill : [here.id]});
+                skill_list[skill] = [here.id];
+                //report skill_list.dict::keys;
+            }         
+                       
+        }
+        
+    }
+    with exit {
+        report skill_list; 
+        }
+
+}
+    
+
+walker find_all_cars {
+    has anchor car_list = [];
+    has anchor cars;
+
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    
+    person{
+        
+        cars = here.cars;
+        if cars:
+            for car in cars:
+                if car in car_list:
+                    continue;
+                else:
+                    car_list.list::append(car);
+    }
+    with exit {
+        report car_list;
+        }
+
 }
