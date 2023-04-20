@@ -27,6 +27,8 @@ We found the Jaseci documentation to be very helpful in understanding how to wor
 
 Here is a demo video:
 
+https://user-images.githubusercontent.com/110921856/233442404-b6191713-de60-4658-9a80-35c0d78441d7.mp4
+
 ## Contributors
 
 - Jayanaka Danthanarayana (Jayanaka-98)
