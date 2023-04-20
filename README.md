@@ -17,8 +17,6 @@ This walker is used to create a dictionary which includes people with mutual ski
   ###   4. possible_blood_donors
 This walker is used to create a dictionary which includes lists of possible people to donate blood for each blood group. This includes all the blood groups and possible donors.
 
-The `spouses` field is an array, so you can include multiple spouses if necessary.
-
 ## Experience
 
 Implementing new features was a relatively straightforward process. We updated the nodes to include new features modifying the graph.jac file. Then we defined four walkers to categorize individuals with similar attributes.
